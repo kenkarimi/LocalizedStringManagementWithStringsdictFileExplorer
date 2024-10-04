@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>greeting_message</key>
+	<string>Hello, world!</string>
+	<key>cancel_button</key>
+	<string>Cancel</string>
+	<key>save_button</key>
+	<string>Save</string>
+	<key>goodbye_message</key>
+	<string>Goodbye, world!</string>
+	<key>numberOfSongs</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>You have 1 song.</string>
+			<key>other</key>
+			<string>You have %d songs.</string>
+		</dict>
+	</dict>
+	<key>numberOfItems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>The price of %d items is %@.</string>
+		<key>NSStringFormatSpecifiers</key>
+		<array>
+			<string>%d</string>
+			<string>%@</string>
+		</array>
+	</dict>
+	<key>currency</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>The global reserve currency is %@</string>
+	</dict>
+	<key>bread</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>I ate %.2f slices of bread.</string>
+	</dict>
+</dict>
+</plist>
